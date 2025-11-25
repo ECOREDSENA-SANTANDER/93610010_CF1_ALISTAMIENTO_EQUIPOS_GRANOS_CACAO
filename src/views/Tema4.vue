@@ -5,7 +5,37 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Tema 4
+      h1 Clasificación y criterios de selección de los equipos
+
+    
+    separador
+    #t_4_1.titulo-segundo.mb-5
+      h2 4.1 Por tipo de grano
+    
+
+    separador
+    #t_4_2.titulo-segundo.mb-5
+      h2 4.2 Por capacidad de procesamiento
+
+    separador
+    #t_4_3.titulo-segundo.mb-5
+      h2 4.3 Por fuente de energía
+
+    separador
+    #t_4_4.titulo-segundo.mb-5
+      h2 4.4 Por normativa de seguridad e higiene
+
+      
+    
+    
+
+
+
+
+
+
+
+
 
 
 </template>

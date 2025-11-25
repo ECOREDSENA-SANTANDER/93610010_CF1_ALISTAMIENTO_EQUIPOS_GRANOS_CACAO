@@ -5,7 +5,36 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Componentes y funcionamiento de los equipos
+
+
+    separador
+    #t_3_1.titulo-segundo.mb-5
+      h2 3.1 Estructura mecánica
+
+    separador
+    #t_3_2.titulo-segundo.mb-5
+      h2 3.2 Componentes eléctricos o electrónicos
+
+    separador
+    #t_3_3.titulo-segundo.mb-5
+      h2 3.3 Mecanismos de seguridad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 
