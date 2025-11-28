@@ -4,11 +4,20 @@
     position: absolute
     top: 20%
     right: 10%
+    width: 100px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
     right: 30%
+    width: 100px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 30%
+    width: 100px
+
 
 @keyframes float1
   0%
@@ -31,3 +40,263 @@ figcaption
 
 .barra-avance__boton--regresar span 
     color: white !important
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
+
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 8px 0 8px 8px
+  border-left-color: #93C123!important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #38B449
+  background-color: #e8e8e8
+
+
+
+//INTRO
+
+.bg1
+  background-color: #FDF6E9
+  border-radius: 20px
+
+
+.bg2
+  background-color: #F4F9E8
+  border-radius: 14px
+
+
+
+
+
+
+//TEMA1
+
+.bloque-texto-g.color-acento-contenido 
+  background-color: #D4E6A7
+
+
+.titulo
+  background-color: #FDF6E9
+  border-radius: 10px 
+  width: fit-content
+  padding: 8px 20px 8px 75px
+  position: relative
+  display: inline-flex
+  align-items: center
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    padding: 8px 20px 8px 65px
+.titulo img
+  width: 63px
+  height: 63px
+  position: absolute
+  top: 35%
+  left: -6px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+  @media only screen and (max-width: 767px)
+    width: 50px
+    height: 50px
+    left: 5px
+    top: 45%
+
+
+.tarjeta--slyder.b1
+  background-color: #FDF6E9
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema1/der.png')
+.fa-chevron-left:before 
+    content: url('../assets/curso/tema1/izq.png')
+
+  
+.acordion__accion__btn--a
+  background-color: #2A0F2B
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azul
+  background-color: #FDF6E9
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FCF0E8
+.acordion__accion__btn--a i, .acordion__accion__btn--b i 
+  color: white
+.acordion.activo .acordion__activo .acordion__accion__btn--a
+  background-color: #93C123
+
+
+.fondo1
+  background-color: #E9F2D3
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size: 100% 
+
+  
+.bg3
+  background-color: #93C123
+
+
+.fa-check
+  color: #93C123
+
+
+.tabla-a thead 
+    border-top: 6px solid #93C123
+    color: black
+    background-color: #FDF6E9
+.tabla-a th
+    border-color: #FDF6E9
+.tabla-a
+  table th
+    padding: 15px 13px
+  table td 
+    padding: 10px 10px
+    text-align: left
+.tabla-a
+  table
+    width: 100%
+    min-width: 1200px 
+    table-layout: fixed  
+    border-collapse: collapse
+    th, td
+      overflow-wrap: break-word
+      word-wrap: break-word
+      white-space: normal 
+      vertical-align: top
+.tab1
+  th:nth-child(1) 
+    width: 10%
+  th:nth-child(2) 
+    width: 40%
+  th:nth-child(3) 
+    width: 18%
+  th:nth-child(4) 
+    width: 13%
+  th:nth-child(5) 
+    width: 18%
+.left
+  text-align: left
+
+
+
+
+//TEMA2
+
+
+.tab2
+  th:nth-child(1) 
+    width: 12%
+  th:nth-child(2) 
+    width: 17%
+  th:nth-child(3) 
+    width: 21%
+  th:nth-child(4) 
+    width: 22%
+  th:nth-child(5) 
+    width: 28%
+
+
+.tab3
+  th:nth-child(1) 
+    width: 12%
+  th:nth-child(2) 
+    width: 38%
+  th:nth-child(3) 
+    width: 25%
+  th:nth-child(4) 
+    width: 25%
+
+
+.fondo2
+  background-color: #FDF6E9
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size: 100% 
+
+
+.tab4
+  th:nth-child(1) 
+    width: 24%
+  th:nth-child(2) 
+    width: 38%
+  th:nth-child(3) 
+    width: 38%
+
+
+.fondo3
+  background: url('../assets/curso/tema2/fondo3.png')
+  background-size: 100% 
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+
+  
+.tab5
+  th:nth-child(1) 
+    width: 45%
+  th:nth-child(2) 
+    width: 29%
+  th:nth-child(3) 
+    width: 26%
+
+
+.bg4
+  background-color: #E5A32C
+  border-radius: 15px

@@ -3,7 +3,7 @@ export default {
     Name: 'Equipos e instrumentos en la transformación del grano',
     Description:
       'Este proceso consiste en reconocer y describir los distintos equipos e instrumentos utilizados en las etapas de transformación del grano, como limpieza, secado, molienda, tostado y empaque. La identificación permite conocer el nombre, tipo y función de cada equipo, mientras que la caracterización incluye aspectos técnicos como capacidad, fuente de energía, materiales de fabricación, componentes principales y condiciones óptimas de operación. Esta información es clave para seleccionar adecuadamente los equipos según el tipo de grano, el volumen de producción y los requisitos de calidad e inocuidad del proceso.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -13,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
