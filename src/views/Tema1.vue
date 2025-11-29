@@ -232,7 +232,7 @@
         figcaption Fuente: SENA, (2025)
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-0
           .bloque-texto-g__img(
