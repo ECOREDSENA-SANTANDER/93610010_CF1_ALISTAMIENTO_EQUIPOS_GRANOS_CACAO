@@ -79,10 +79,10 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-4
             img.mb-3(src='@/assets/curso/tema3/4.png' alt='Se presentan tres mecanismos de transmisión mecánica dispuestos lado a lado. El primero corresponde a un conjunto de poleas unidas por una banda para transferir movimiento. El segundo contiene ruedas que interactúan por contacto directo para generar fricción y desplazamiento. El tercero está conformado por múltiples engranajes acoplados entre sí para transmitir potencia mediante el acople de dientes.')
-            h4.mb-0.text-center Sistema de poleas
+            h4.mb-lg-0.mb-5.text-center Sistema de poleas
           .col-lg-4
             img.mb-3(src='@/assets/curso/tema3/5.png' alt='Se presentan tres mecanismos de transmisión mecánica dispuestos lado a lado. El primero corresponde a un conjunto de poleas unidas por una banda para transferir movimiento. El segundo contiene ruedas que interactúan por contacto directo para generar fricción y desplazamiento. El tercero está conformado por múltiples engranajes acoplados entre sí para transmitir potencia mediante el acople de dientes.')
-            h4.mb-0.text-center Ruedas de fricción
+            h4.mb-lg-0.mb-5.text-center Ruedas de fricción
           .col-lg-4
             img.mb-3(src='@/assets/curso/tema3/6.png' alt='Se presentan tres mecanismos de transmisión mecánica dispuestos lado a lado. El primero corresponde a un conjunto de poleas unidas por una banda para transferir movimiento. El segundo contiene ruedas que interactúan por contacto directo para generar fricción y desplazamiento. El tercero está conformado por múltiples engranajes acoplados entre sí para transmitir potencia mediante el acople de dientes.')
             h4.mb-0.text-center Tren de engranajes
@@ -97,13 +97,13 @@
 
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-4
+      .col-lg-4.col-md-6.col-10.mb-lg-0.mb-4
         .bg6.p-4
           h5.mb-0.text-center.text-white Martillos en molinos
-      .col-lg-4
+      .col-lg-4.col-md-6.col-10.mb-lg-0.mb-4
         .bg6.p-4
           h5.mb-0.text-center.text-white Tambores en tostadoras
-      .col-lg-4
+      .col-lg-4.col-md-6.col-10.mb-0
         .bg6.p-4
           h5.mb-0.text-center.text-white Mallas en zarandas
 

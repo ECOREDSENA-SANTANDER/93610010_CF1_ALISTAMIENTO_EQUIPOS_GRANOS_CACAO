@@ -10,11 +10,11 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.col-md-9.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/intro/1.png', alt='')
       .col-lg-7
         .row.justify-content-center.align-items-center.mb-lg-5.mb-4
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/intro/2.svg', alt='')
           .col-lg-10
             p.mb-0 La transformación del grano es una etapa clave en las cadenas agroindustriales, ya que determina en gran medida la calidad, inocuidad y valor agregado del producto final. Para garantizar procesos eficientes, seguros y alineados con los estándares del mercado, es fundamental identificar y caracterizar correctamente los equipos e instrumentos involucrados en cada fase del procesamiento.
@@ -23,9 +23,9 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
-        img.img-t.mb-2(src='@/assets/curso/intro/3.svg', alt='')
-        p.mb-0 Contar con este conocimiento permite seleccionar los equipos adecuados según el tipo de grano, el volumen de producción y las condiciones operativas. Además, favorece una gestión técnica eficiente, una mejor planificación del mantenimiento preventivo y el cumplimiento de normativas sanitarias, de seguridad e inocuidad.
-      .col-lg-3
+        img.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/intro/3.svg', alt='')
+        p.mb-lg-0.mb-4 Contar con este conocimiento permite seleccionar los equipos adecuados según el tipo de grano, el volumen de producción y las condiciones operativas. Además, favorece una gestión técnica eficiente, una mejor planificación del mantenimiento preventivo y el cumplimiento de normativas sanitarias, de seguridad e inocuidad.
+      .col-lg-3.d-none.d-lg-block
         .bg1.p-4
           img(src='@/assets/curso/intro/4.png', alt='')
       .col-lg-5

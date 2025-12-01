@@ -1,22 +1,22 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3.0s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-    width: 100px
+    top: 35%
+    right: 85%
+    width: 90px
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-    width: 100px
-  &-3
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
     top: 5%
     right: 30%
-    width: 100px
+    width: 90px
+  &-3
+    animation: float1 2.0s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    right: 10%
+    width: 90px
 
 
 @keyframes float1
@@ -29,7 +29,9 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 500px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: black !important   
 .banner-interno__titulo__icono i
@@ -98,7 +100,6 @@ figcaption
 .bg2
   background-color: #F4F9E8
   border-radius: 14px
-
 
 
 
@@ -425,6 +426,40 @@ figcaption
 
 //TEMA4
 
-
 .fas.fa-leaf:before 
   content: url('../assets/curso/tema4/ico.png') 
+
+
+
+
+
+
+//TEMA5
+
+.tarjetaf
+  background-color: #FDF6E9
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+.slyder-a__bullets__item 
+  background-color: #F5DAAA
+  border-color: #F5DAAA
+.slyder-a__bullets__item--active 
+  background-color: #E5A32C !important
+  border-color: #E5A32C !important
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  content: url('../assets/curso/tema1/der.png')
+  transform: rotate(0deg)
+  right: 15px
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  content: url('../assets/curso/tema1/izq.png')
+  transform: rotate(0deg)
+  left: 15px
+@media (max-width: 768px) 
+  .slyder-a__bullets__item 
+    width: 15px
+    height: 15px
+    margin: 0px 1px

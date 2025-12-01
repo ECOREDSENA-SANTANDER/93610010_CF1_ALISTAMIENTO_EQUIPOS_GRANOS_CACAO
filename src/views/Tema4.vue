@@ -27,10 +27,10 @@
     
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-4
         .bg2.p-lg-5.p-4
           p.mb-0.mb-lg-1.my-lg-1 Cada tipo de grano presenta características físicas y químicas particulares (tamaño, dureza, contenido de humedad, composición) que influyen en la selección de equipos.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         .bg1.p-4
           img(src='@/assets/curso/intro/4.png', alt='')
       .col-lg-5
@@ -47,29 +47,29 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+      .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema4/3.svg', alt='')
       .col-lg-11
         p.mb-0 Seleccionar equipos compatibles con el tipo de grano asegura la eficiencia en la limpieza, secado, molienda y otras etapas, y evita pérdidas o daños. En el caso del grano de cacao requiere equipos especializados debido a las características particulares del grano, como su tamaño, dureza, contenido de grasa y la necesidad de preservar su calidad para obtener productos de alta calidad, como el chocolate. Se mencionan algunos equipos específicos para cacao.
 
 
     .row.justify-content-center.align-items-stretch.mb-0
-      .col-lg-3
+      .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
         .bg1.p-4.h-100
           img.mb-3(src='@/assets/curso/tema4/4.png', alt='')
           h4.mb-3.text-center Tostadoras de cacao
           p.mb-0.text-center Diseñadas para tostar uniformemente los granos, liberando sabores y aromas característicos sin quemarlos. Suelen tener controles de temperatura y tiempo ajustables.
-      .col-lg-3
+      .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
         .bg1.p-4.h-100
           img.mb-3(src='@/assets/curso/tema4/5.png', alt='')
           h4.mb-3.text-center Descascarilladora
           p.mb-0.text-center Equipo encargado de separar la cáscara dura del grano tostado para obtener las almendras de cacao. Su operación debe ser precisa y cuidadosa, evitando la rotura o deterioro del grano durante el proceso.
-      .col-lg-3
+      .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
         .bg1.p-4.h-100
           img.mb-3(src='@/assets/curso/tema4/6.png', alt='')
           h4.mb-3.text-center Molinos de cacao
           p.mb-0.text-center Equipos para moler la almendra de cacao y convertirlos en pasta de cacao o licor de cacao. Estos molinos deben soportar la alta viscosidad y contenido graso del producto.
-      .col-lg-3
+      .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
         .bg1.p-4.h-100
           img.mb-3(src='@/assets/curso/tema4/7.png', alt='')
           h4.mb-3.text-center Prensas hidráulicas
@@ -96,7 +96,7 @@
               i.fas.fa-leaf
               p.mb-0 La capacidad también influye en el tamaño físico, consumo energético y costo de la máquina.
         p.mb-0 Es importante dimensionar correctamente el equipo para evitar cuellos de botella, excesos de inversión o subutilización.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema4/8.png', alt='')
 
 
@@ -106,7 +106,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5
+      .col-lg-5.col-md-9.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema4/9.png', alt='')
       .col-lg-7
         p.mb-4 Los equipos pueden clasificarse según el tipo de energía que utilizan para su funcionamiento, lo que afecta su disponibilidad, costos operativos y aplicación.
@@ -147,7 +147,7 @@
               i.fas.fa-leaf
               p.mb-0 Certificaciones nacionales o internacionales (como ISO, FDA, normas locales).
         p.mb-0 El cumplimiento normativo es fundamental para la comercialización del producto y la sostenibilidad del proceso.
-      .col-lg-6
+      .col-lg-6.col-md-9.col-10
         img(src='@/assets/curso/tema4/10.png', alt='')
     
     

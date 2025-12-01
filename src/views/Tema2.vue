@@ -154,11 +154,11 @@
       .col-lg-12
         
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema2/6.png' alt='AvatarTop')
           .col-lg-4
-            p.mb-0 Los secadores solares representan una alternativa económica y ecológica para pequeñas producciones, aunque dependen del clima. Por otro lado, los secadores mecánicos utilizan fuentes de energía como gas, leña o electricidad para generar aire caliente, lo que permite un secado más rápido, uniforme y controlado. La elección del tipo de secador adecuado depende de factores como el tipo de grano, el volumen de producción, las condiciones climáticas y los recursos disponibles.
-          .col-lg-5
+            p.mb-lg-0.mb-4 Los secadores solares representan una alternativa económica y ecológica para pequeñas producciones, aunque dependen del clima. Por otro lado, los secadores mecánicos utilizan fuentes de energía como gas, leña o electricidad para generar aire caliente, lo que permite un secado más rápido, uniforme y controlado. La elección del tipo de secador adecuado depende de factores como el tipo de grano, el volumen de producción, las condiciones climáticas y los recursos disponibles.
+          .col-lg-5.col-md-9.col-10
             img(src='@/assets/curso/tema2/7.png' alt='AvatarTop')
         
 
@@ -233,7 +233,7 @@
     .row.fondo3.p-4.p-lg-5.p-md-4.mb-0
       .col-lg-12
 
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center.mb-0
           .col-lg-12
             .titulo-sexto.mb-4
               h5 Figura 2. 

@@ -86,7 +86,7 @@
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-4.p-md-4.p-lg-5.mb-0
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-4.p-lg-5.mb-0
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/9.png')})`}"
           )
@@ -107,7 +107,7 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/10.png' alt='AvatarTop')
       .col-lg-9
         AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0
@@ -130,7 +130,7 @@
       h3.mb-0 Actividades claves de alistamiento
 
 
-    .row.fondo1.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
+    .row.fondo1.p-4.p-lg-5.p-md-4.mb-0
       .col-lg-12
         
         .row.justify-content-center.align-items-center.mb-lg-3.mb-0
@@ -153,7 +153,7 @@
                 p.mb-0 Comprobación de herramientas auxiliares y accesorios.
             .bg3.p-4
               h4.mb-0 El alistamiento debe ser realizado por personal capacitado y documentado en formatos de control o listas de chequeo, lo cual facilita la trazabilidad y el cumplimiento de estándares de calidad.
-          .col-lg-5
+          .col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/tema1/11.png' alt='AvatarTop')
 
 
