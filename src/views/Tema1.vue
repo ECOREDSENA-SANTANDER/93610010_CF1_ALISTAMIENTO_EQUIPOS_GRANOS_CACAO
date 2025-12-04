@@ -8,7 +8,7 @@
       h1 Procesos de transformación del grano
       
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-0
           .bloque-texto-g__img(
@@ -21,7 +21,7 @@
             p.mb-0 A través de una secuencia de operaciones físicas, mecánicas o térmicas, la transformación del grano permite estandarizar características como el tamaño, la humedad, el contenido nutricional y el sabor, generando productos como harinas, café tostado, cacao en polvo, cereales procesados, entre otros.
     
     
-    p.mb-0 Este proceso requiere no solo conocimiento técnico sobre las etapas y equipos involucrados, sino también una planificación adecuada, condiciones de higiene óptimas y el cumplimiento de normativas nacionales e internacionales, especialmente en lo relacionado con la inocuidad y la calidad.
+    p.mb-0(data-aos="fade-left") Este proceso requiere no solo conocimiento técnico sobre las etapas y equipos involucrados, sino también una planificación adecuada, condiciones de higiene óptimas y el cumplimiento de normativas nacionales e internacionales, especialmente en lo relacionado con la inocuidad y la calidad.
    
    
     separador
@@ -29,10 +29,10 @@
       h2 1.1 ¿Qué es la transformación del grano?
 
 
-    p.mb-5 La transformación del grano se refiere al conjunto de operaciones destinadas a cambiar las condiciones físicas, químicas o microbiológicas del grano crudo para convertirlo en un producto apto para el consumo o uso industrial.
+    p.mb-5(data-aos="fade-right") La transformación del grano se refiere al conjunto de operaciones destinadas a cambiar las condiciones físicas, químicas o microbiológicas del grano crudo para convertirlo en un producto apto para el consumo o uso industrial.
 
 
-    .titulo.mb-5
+    .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Operaciones para transformación del grano
 
@@ -84,7 +84,7 @@
             p.mb-2.text-center Acondicionamiento del producto para su almacenamiento y distribución.
 
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-4.p-lg-5.mb-0
           .bloque-texto-g__img(
@@ -103,10 +103,10 @@
       h2 1.2 Importancia del alistamiento previo de los equipos
 
 
-    p.mb-5 El alistamiento de los equipos es una etapa previa al inicio de la operación que asegura que todas las máquinas e instrumentos estén en condiciones óptimas de funcionamiento. Su importancia radica en los siguientes aspectos:
+    p.mb-5(data-aos="fade-right") El alistamiento de los equipos es una etapa previa al inicio de la operación que asegura que todas las máquinas e instrumentos estén en condiciones óptimas de funcionamiento. Su importancia radica en los siguientes aspectos:
 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/10.png' alt='AvatarTop')
       .col-lg-9
@@ -119,18 +119,18 @@
               p.mb-0.mx-lg-3 Equipos correctamente alistados permiten una transformación uniforme, evitando defectos como quemados, trituración excesiva, contaminación cruzada o pérdida de aroma y sabor.
           .row.justify-content-center.align-items.p-0(titulo="Cumplimiento de normativas")
             .col-lg-11.mb-0
-              p.mb-0.mx-lg-3 Las normas de #[b Buenas Prácticas de Manufactura (BPM)] y los sistemas de #[b Análisis de Peligros y Puntos Críticos de Control (HACCP, por sus siglas en inglés)] exigen el mantenimiento y la verificación previa de los equipos antes del contacto con los alimentos.
+              p.mb-0.mx-lg-3 Las normas de #[b Buenas Prácticas de Manufactura (BPM)] y los sistemas de #[b Análisis de Peligros y Puntos Críticos de Control (#[em HACCP], por sus siglas en inglés)] exigen el mantenimiento y la verificación previa de los equipos antes del contacto con los alimentos.
           .row.justify-content-center.align-items.p-0(titulo="Eficiencia en el proceso")
             .col-lg-11.mb-0
               p.mb-0.mx-lg-3 Un buen alistamiento minimiza pérdidas de tiempo, optimiza el uso de energía y recursos, y mejora la productividad.
 
 
-    .titulo.mb-5
+    .titulo.mb-5(data-aos="fade-right")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Actividades claves de alistamiento
 
 
-    .row.fondo1.p-4.p-lg-5.p-md-4.mb-0
+    .row.fondo1.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-left")
       .col-lg-12
         
         .row.justify-content-center.align-items-center.mb-lg-3.mb-0
@@ -163,10 +163,10 @@
       h2 1.3 Tipos de granos (café, cacao, maíz, etc.) y procesos asociados
 
     
-    p.mb-5 Los granos son semillas secas de diversas plantas cultivadas que constituyen una de las bases de la alimentación humana y animal a nivel mundial. Cada tipo de grano requiere procesos específicos para su transformación, debido a sus características físicas, químicas y usos finales.
+    p.mb-5(data-aos="fade-right") Los granos son semillas secas de diversas plantas cultivadas que constituyen una de las bases de la alimentación humana y animal a nivel mundial. Cada tipo de grano requiere procesos específicos para su transformación, debido a sus características físicas, químicas y usos finales.
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4(alt='La tabla presenta diferentes tipos de granos (cacao, café, maíz y otros cereales) y detalla las principales etapas de su procesamiento, el objetivo de cada una, el proceso clave y el producto final obtenido. Resume cómo cada grano requiere procedimientos específicos (como fermentación, tostado, molienda o cocción) para alcanzar productos con características organolépticas y funcionales distintas.')
           h5 Tabla 1. 
@@ -232,7 +232,7 @@
         figcaption Fuente: SENA, (2025)
 
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-0
           .bloque-texto-g__img(

@@ -8,7 +8,7 @@
       h1 Clasificación y criterios de selección de los equipos
 
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-0
           .bloque-texto-g__img(
@@ -26,7 +26,7 @@
       h2 4.1 Por tipo de grano
     
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.mb-lg-0.mb-4
         .bg2.p-lg-5.p-4
           p.mb-0.mb-lg-1.my-lg-1 Cada tipo de grano presenta características físicas y químicas particulares (tamaño, dureza, contenido de humedad, composición) que influyen en la selección de equipos.
@@ -46,14 +46,14 @@
             p.mb-0 Algunos equipos están diseñados específicamente para ciertos granos o cultivos, mientras que otros son versátiles.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema4/3.svg', alt='')
       .col-lg-11
         p.mb-0 Seleccionar equipos compatibles con el tipo de grano asegura la eficiencia en la limpieza, secado, molienda y otras etapas, y evita pérdidas o daños. En el caso del grano de cacao requiere equipos especializados debido a las características particulares del grano, como su tamaño, dureza, contenido de grasa y la necesidad de preservar su calidad para obtener productos de alta calidad, como el chocolate. Se mencionan algunos equipos específicos para cacao.
 
 
-    .row.justify-content-center.align-items-stretch.mb-0
+    .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-right")
       .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
         .bg1.p-4.h-100
           img.mb-3(src='@/assets/curso/tema4/4.png', alt='')
@@ -81,7 +81,7 @@
       h2 4.2 Por capacidad de procesamiento
 
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-8
         p.mb-4 La capacidad o volumen que debe manejar el equipo es otro factor determinante. Se refiere a la cantidad de grano que puede procesarse en un período determinado.
         .bg2.p-lg-5.p-4.mb-4 
@@ -105,7 +105,7 @@
       h2 4.3 Por fuente de energía
 
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-5.col-md-9.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema4/9.png', alt='')
       .col-lg-7
@@ -129,7 +129,7 @@
       h2 4.4 Por normativa de seguridad e higiene
 
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-6
         p.mb-4 Los equipos deben cumplir con las normas y regulaciones vigentes en materia de seguridad industrial y seguridad alimentaria y garantizando varios aspectos.
         .bg2.p-4.mb-4 
@@ -151,15 +151,6 @@
         img(src='@/assets/curso/tema4/10.png', alt='')
     
     
-
-
-
-
-
-
-
-
-
 
 </template>
 

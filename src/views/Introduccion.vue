@@ -10,9 +10,9 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-md-9.col-10.mb-lg-0.mb-4
+      .col-lg-5.col-md-9.col-10.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/intro/1.png', alt='')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .row.justify-content-center.align-items-center.mb-lg-5.mb-4
           .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/intro/2.svg', alt='')
@@ -22,18 +22,18 @@
     
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         img.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/intro/3.svg', alt='')
         p.mb-lg-0.mb-4 Contar con este conocimiento permite seleccionar los equipos adecuados según el tipo de grano, el volumen de producción y las condiciones operativas. Además, favorece una gestión técnica eficiente, una mejor planificación del mantenimiento preventivo y el cumplimiento de normativas sanitarias, de seguridad e inocuidad.
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         .bg1.p-4
           img(src='@/assets/curso/intro/4.png', alt='')
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .bg2.p-4
           p.mb-0.mb-lg-1.my-lg-1 Este componente formativo brinda a los participantes las herramientas necesarias para comprender y aplicar criterios técnicos en la selección, uso y mantenimiento de los equipos e instrumentos para la transformación del grano. Asimismo, promueve una visión integral del proceso productivo, subrayando la importancia de la estandarización, la eficiencia energética y la sostenibilidad en el desarrollo agroindustrial.
 
     
-    .row.justify-content-center.align-items-center           
+    .row.justify-content-center.align-items-center(data-aos="fade-right")           
       .col-lg-12
         figure
           .video

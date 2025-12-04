@@ -8,7 +8,7 @@
       h1 Buenas Prácticas de Manufactura (BPM)
 
   
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-4.p-lg-5.p-md-4.mb-0
           .bloque-texto-g__img(
@@ -18,7 +18,7 @@
             p.mb-0 Las Buenas Prácticas de Manufactura (BPM) son un conjunto de procedimientos, normas y controles que garantizan la producción de alimentos seguros, de calidad y aptos para el consumo. Implementar BPM es fundamental para prevenir la contaminación, asegurar la inocuidad alimentaria y cumplir con las regulaciones sanitarias, existen requisitos y aspectos clave de BPM aplicados a la transformación del grano.
 
 
-    .tarjetaf.p-4.p-lg-5.mb-5
+    .tarjetaf.p-4.p-lg-5.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-top
           .col-lg-6.mb-lg-0.mb-4
@@ -208,22 +208,10 @@
             img.mb-0(alt="" src="@/assets/curso/tema5/11.png")
 
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .bg4.p-4.mb-0
-          h5.mb-0.mt-lg-4.mb-lg-4.text-center Nota: implementar y mantener estas Buenas Prácticas de Manufactura asegura la producción de granos y derivados seguros, cumple con normativas nacionales e internacionales, y mejora la competitividad del producto en el mercado.
-
-
-
-
-
-
-
-
-
-
-
-
+          p.mb-0.mt-lg-4.mb-lg-4.text-center #[b Nota:] implementar y mantener estas Buenas Prácticas de Manufactura asegura la producción de granos y derivados seguros, cumple con normativas nacionales e internacionales, y mejora la competitividad del producto en el mercado.
 
 
 
