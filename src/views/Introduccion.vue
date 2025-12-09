@@ -37,7 +37,7 @@
       .col-lg-12
         figure
           .video
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RJ9U1trd4Xo?si=JpRsDeWbgnH9WGGT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RJ9U1trd4Xo?si=YXqBlVQOyWE6siB_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         figcaption Video. Alistamiento de equipos e instrumentos de transformación del grano
 
 </template>
