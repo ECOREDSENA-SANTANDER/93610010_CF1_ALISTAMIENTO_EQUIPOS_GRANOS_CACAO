@@ -131,7 +131,7 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-6
-        p.mb-4 Los equipos deben cumplir con las normas y regulaciones vigentes en materia de seguridad industrial y seguridad alimentaria y garantizando varios aspectos.
+        p.mb-4 Los equipos deben cumplir con las normas y regulaciones vigentes en materia de seguridad industrial y seguridad alimentaria, garantizando varios aspectos.
         .bg2.p-4.mb-4 
           ul.lista-ul.mb-0
             li.d-flex.mb-2

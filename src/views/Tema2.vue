@@ -274,7 +274,7 @@
 
     separador
     #t_2_4.titulo-segundo.mb-5
-      h2 2.4 Equipos para la molienda
+      h2 2.4 Equipos para el tostado
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")

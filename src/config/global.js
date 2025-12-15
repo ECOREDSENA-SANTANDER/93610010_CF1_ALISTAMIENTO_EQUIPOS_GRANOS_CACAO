@@ -81,7 +81,7 @@ export default {
           },
           {
             numero: '2.4',
-            titulo: 'Equipos para la molienda',
+            titulo: 'Equipos para el tostado',
             hash: 't_2_4',
           },
           {
@@ -186,7 +186,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF1_93610010_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -404,7 +404,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
