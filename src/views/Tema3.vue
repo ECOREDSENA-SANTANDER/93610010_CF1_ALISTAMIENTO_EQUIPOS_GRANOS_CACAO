@@ -75,7 +75,7 @@
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Figura 15. 
-          | #[em Elementos de Transmisión]
+          | #[em Elementos de transmisión]
         img.mb-0.d-none.d-md-block(src='@/assets/curso/tema3/14.png' alt='Se presentan tres mecanismos de transmisión mecánica dispuestos lado a lado. El primero corresponde a un conjunto de poleas unidas por una banda para transferir movimiento. El segundo contiene ruedas que interactúan por contacto directo para generar fricción y desplazamiento. El tercero está conformado por múltiples engranajes acoplados entre sí para transmitir potencia mediante el acople de dientes.')
       
         .row.justify-content-center.align-items-center.mb-3.img-mobile
